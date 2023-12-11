@@ -76,3 +76,7 @@ ifeq ($(PCSL_CPU), arm)
 CFLAGS   += -DARM
 LD_FLAGS += -Xlinker --no-warn-mismatch
 endif
+
+ifeq ($(PCSL_CPU), i386)
+CFLAGS   += -march=i686 -m32
+endif
