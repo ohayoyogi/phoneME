@@ -1970,6 +1970,7 @@ CPLUSPLUS_FLAGS         += -fno-operator-names
 CPLUSPLUS_FLAGS         += -fno-exceptions
 CPLUSPLUS_FLAGS         += -fno-optional-diags
 CPLUSPLUS_FLAGS         += -fno-rtti
+CPLUSPLUS_FLAGS         += -Wno-narrowing
 
 CPP_DEF_FLAGS_i386       = -Di386 -m32
 CPP_DEF_FLAGS_arm	 =
